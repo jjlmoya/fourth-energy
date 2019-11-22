@@ -1,7 +1,7 @@
 <template>
     <header class="header header--default">
         <div class="header__logo">
-            <img src="./cuartaevolucion.png" alt="cuartaevolucion">
+            <img src="https://github.com/jjlmoya/fourth-energy/cuartaevolucion.png" alt="Cuarta Evolucion">
         </div>
     </header>
 </template>
