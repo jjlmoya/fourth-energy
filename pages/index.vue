@@ -1,12 +1,10 @@
 <template>
     <div>
         <Layout>
-            <Inspirational/>
+            <Inspirational />
         </Layout>
     </div>
 </template>
-<style lang="scss">@import 'index.scss';
-</style>
 
 <script>
     import Layout from '@/layouts/Default.vue'

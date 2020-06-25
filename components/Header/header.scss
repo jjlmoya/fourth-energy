@@ -1,4 +1,30 @@
 .header {
+  &--navigation {
+    display: grid;
+    margin-bottom: 10px;
+
+    .header {
+      &__navigation {
+        display: flex;
+        justify-content: center;
+
+        .element {
+          padding: 0 5px;
+        }
+      }
+
+      &__logo {
+        align-self: center;
+        justify-self: center;
+        height: 70px;
+
+        img {
+          height: 70px;
+        }
+      }
+    }
+  }
+
   &--default {
     position: fixed;
     width: 100%;
@@ -8,8 +34,17 @@
     .header {
       &__logo {
         img {
-          width: 200px;
+          width: 150px;
         }
+      }
+
+      &__contact {
+        position: absolute;
+        right: 0;
+        padding: 5px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 14px;
       }
 
       &__nav {

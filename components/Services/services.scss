@@ -1,0 +1,29 @@
+.footer-default {
+  position: relative;
+  width: 100%;
+  height: 20vh;
+  color: white;
+
+  .title {
+    color: rgb(29, 29, 29);
+    font-weight: bold;
+    position: absolute;
+    top: -32px;
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+  }
+
+  .navigation {
+    padding: 15px;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    font-weight: bold;
+
+    &__element {
+      padding: 1px;
+      //text-decoration: underline;
+    }
+  }
+}
